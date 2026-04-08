@@ -18,7 +18,7 @@
     margin-top: 15px;
     font-size: 1rem;
     letter-spacing: 2px;
-    color: #666;
+    color: #666666;
 }
 
 .contact {
@@ -29,12 +29,49 @@
 
 .contact a {
     text-decoration: none;
-    color: #111;
-    border-bottom: 1px solid #111;
+    color: #111111;
+    border-bottom: 1px solid #111111;
     padding-bottom: 2px;
     transition: 0.2s;
 }
 
 .contact a:hover {
     opacity: 0.6;
+}
+
+.contact button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-family: inherit;
+    border-bottom: 1px solid #111111;
+    padding-bottom: 2px;
+}
+
+.dropdown {
+    margin-top: 25px;
+    max-height: 0;
+    opacity: 0;
+    overflow: hidden;
+    transform: translateY(-10px);
+    transition: all 0.4s ease;
+}
+
+.dropdown a {
+    text-decoration: none;
+    color: #666666;
+}
+
+.dropdown a:hover {
+    color: #111111;
+}
+
+.dropdown p {
+    margin-top: 0px;
+}
+
+.show {
+    max-height: 200px;
+    opacity: 1;
+    transform: translateY(0);
 }
