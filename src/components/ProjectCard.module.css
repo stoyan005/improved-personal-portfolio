@@ -23,6 +23,7 @@
 }
 
 .project a {
+    margin-top: 15px;
     font-weight: bold;
     margin-top: auto;
     text-decoration: none;
@@ -31,4 +32,15 @@
 
 .project a:hover {
     color: #0b366e;
+}
+
+.project_image {
+    width: 400px;
+    height: 150px;
+    border-radius: 8px;
+    /* This is the key change */
+    object-fit: cover;
+    /* Optional: centers the most important part of the image */
+    object-position: center;
+    margin-bottom: 15px;
 }
