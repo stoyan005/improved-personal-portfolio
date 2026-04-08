@@ -28,7 +28,7 @@ const Information = () => {
 
             <div className={`${styles.dropdown} ${animate ? styles.show : ""}`}>
                 {active === "email" && (
-                    <p>your@email.com</p>
+                    <p>ivanov.stoyan200@gmail.com</p>
                 )}
 
                 {active === "linkedin" && (

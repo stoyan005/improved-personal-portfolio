@@ -9,7 +9,7 @@ function Projects() {
     ];
 
     return (
-        <section className={styles.projects}>
+        <section className={`${styles.projects} reveal`}>
             <h2 className={styles.title}>PROJECTS</h2>
             <div className={styles.grid}>
                 {projectData.map((project, index) => (
