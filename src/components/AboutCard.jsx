@@ -5,7 +5,7 @@ const AboutCard = () => {
         <div className={`${styles.about} reveal`}>
             <h2>ABOUT</h2>
             <p>
-                I develop modern web applications and apply data analysis to optimize performance, enhance usability, and build insight-driven digital solutions.
+                I design and develop modern web solutions with a strong focus on usability and efficiency, enhanced by data analysis to drive informed improvements and better outcomes.
             </p>
         </div>
     );
