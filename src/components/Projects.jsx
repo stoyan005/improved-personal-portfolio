@@ -7,13 +7,13 @@ function Projects() {
             title: "Pazardzhik Bus Map",
             description: "An interactive web application designed to help users explore and navigate bus routes across Pazardzhik, Bulgaria with ease.",
             link: "https://github.com/stoyan005/pazardzhik-bus-map",
-            image: "/images/pazardzhik_logo.png"
+            image: "/images/pazardzhik_map.webp"
         },
         {
             title: "SDI & Sons LTD.",
             description: "A sleek and responsive website that showcases services, and provides an easy way for clients to connect.",
             link: "https://sdi-sons.vercel.app/",
-            image: "/images/SDI_logo_transparent.webp"
+            image: "/images/sdi_sons_web.webp"
         },
         {
             title: "Sky Engineering Project (WIP)",

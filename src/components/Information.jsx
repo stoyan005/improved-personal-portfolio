@@ -15,12 +15,12 @@ const Information = () => {
     };
 
     return (
-        <div className={styles.hero}>
+        <div className={`${styles.hero} reveal`}>
             <h1>STOYAN IVANOV</h1>
             <p>WEB DEVELOPER • DIGITAL CREATOR • DATA ANALYST </p>
 
 
-            <div className={styles.contact}>
+            <div className={`${styles.contact} reveal`}>
                 <button onClick={() => toggle("email")}>Email</button>
                 <button onClick={() => toggle("linkedin")}>LinkedIn</button>
                 <button onClick={() => toggle("projects")}>Github Projects</button>
@@ -43,7 +43,7 @@ const Information = () => {
                     </a>
                 )}
             </div>
-        </div>
+        </div >
     )
 };
 

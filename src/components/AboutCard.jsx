@@ -1,4 +1,4 @@
-import styles from './AboutCard.module.css'; // ✅ CSS module
+import styles from './AboutCard.module.css';
 
 const AboutCard = () => {
     return (
