@@ -1,11 +1,12 @@
 .hero {
-    height: 100vh;
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
     text-align: center;
     padding: 20px;
+    height: 100vh;
+    overflow: hidden;
 }
 
 .hero h1 {
